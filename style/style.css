@@ -84,6 +84,7 @@ body.open.burger{
     width: 38px;
     scale: 0.8;
     transition: 0.4s;
+    place-items:center;
 }
 @media (width < 500px) {
     .sidebar { translate: -100% 0;}
@@ -101,6 +102,7 @@ body.open.burger{
     .sidebar > nav > button:hover > span {
         opacity: 1;
         visibility: visible;
+       
     }
     .logo { left: 15px; width: 42px; }
 }
