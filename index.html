@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./js/java.js">
+</head>
+<body>
+    <button type="button" class="burger" onclick="toogleSidebar()"></button>
+    <img class="logo" src="/asset/picture/project.png" alt="" />
+    <aside class="sidebar">
+        <header class="sidebar-header">
+        </header>
+    <nav>
+        <button type="button">
+            <img style="top: 18px;
+            left: 52px;
+            width: 38px;
+            scale: 0.8;
+            transition: 0.4s;" src="asset/picture/🦆 icon _home_.png" alt="">
+            <span>Home</span>
+        </button>
+        <!-- rest of buttons -->
+        <!-- other nav menus -->
+        <button type="button">
+            <img style="top: 18px;
+            left: 52px;
+            width: 38px;
+            scale: 0.8;
+            transition: 0.4s;" src="asset/picture/🦆 icon _cog_.png" alt="">
+            <span>settings</span>
+        </button>
+    </nav>
+    </aside>
+    <script type="text/javascript">
+        const toogleSidebar = () => 
+        document.body.classList.toggle("open");
+    </script>
+</body>
+</html>
