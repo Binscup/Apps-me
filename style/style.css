@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    background: #244071;
+    background: #fefefe;
 }
 
 button {
@@ -27,8 +27,9 @@ button {
     left: 0;
     width: 72px;
     height: 100%;
-    background-color: #14274c;
+    background-color: #182433;
     transition:  0.4s;
+   
 }
 .sidebar-header{
     height: 72px;
@@ -71,11 +72,11 @@ button {
     place-items: center;
     width: 72px;
     height: 72px;
-    background: url(/asset/picture/🦆\ icon\ _menu_.png) no-repeat center;
+    background: url("./assets/picture/ic_calender.png") no-repeat center;
 
 }
 body.open.burger{
-    background: url(/asset/picture/🦆\ icon\ _menu_.png) no-repeat center;
+    background: url("./assets/picture/ic_calender.png") no-repeat center;
     
 }
 .logo {
@@ -86,7 +87,7 @@ body.open.burger{
     transition: 0.4s;
     place-items:center;
 }
-@media (width < 500px) {
+@media (width < 375px) {
     .sidebar { translate: -100% 0;}
     body.open .sidebar{
         translate: 0 0;
@@ -96,7 +97,7 @@ body.open.burger{
     }
 }
 
-@media (width >= 500px){
+@media (width >= 375px){
     .burger {display: none; }
 
     .sidebar > nav > button:hover > span {
@@ -106,3 +107,16 @@ body.open.burger{
     }
     .logo { left: 15px; width: 42px; }
 }
+/* card style */
+.rectangle31
+{
+background-color:rgba(217, 217, 217, 0);
+height:233px;
+width:330px;
+border-radius:11px;
+border:3px solid #14274c;
+display:flex;
+}
+
+
+/* card style */
