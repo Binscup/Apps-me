@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    background: #fefefe;
+    background: #ffff;
 }
 
 button {
@@ -87,7 +87,7 @@ body.open.burger{
     transition: 0.4s;
     place-items:center;
 }
-@media (width < 375px) {
+@media (width < 500px) {
     .sidebar { translate: -100% 0;}
     body.open .sidebar{
         translate: 0 0;
@@ -97,7 +97,7 @@ body.open.burger{
     }
 }
 
-@media (width >= 375px){
+@media (width >= 500px){
     .burger {display: none; }
 
     .sidebar > nav > button:hover > span {
@@ -107,16 +107,71 @@ body.open.burger{
     }
     .logo { left: 15px; width: 42px; }
 }
-/* card style */
-.rectangle31
+/* login style */
+.login p{
+    font-size:80px;
+    text-align:center;
+}
+.colomn{
+    width:330px;
+    height:500px;
+    background-color:  #182433;
+    position:absolute   ;
+}
+/* login style */
+.rectangle71
 {
 background-color:rgba(217, 217, 217, 0);
-height:233px;
-width:330px;
+height:363px;
+width:363px;
 border-radius:11px;
 border:3px solid #14274c;
-display:flex;
 }
-
-
-/* card style */
+.inter{
+background-color:rgba(217, 217, 217, 0);
+height:243px;
+width:243px;
+border-radius:11px;
+border:3px solid #14274c;
+margin-left:57px;
+margin-top: 30px;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px 50px;
+    gap: 15px;
+    background-color: #14274C;
+    outline: 3px #14274C solid;
+    outline-offset: -3px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    transition: 400ms;
+    margin-left:115px;
+    margin-top: 12px;
+  }
+  
+  .button .text {
+    color: white;
+    font-weight: 700;
+    font-size: 1em;
+    transition: 400ms;
+    text-align:center;
+    margin-top:10px;
+  }
+  
+  
+  
+  .button:hover {
+    background-color: transparent;
+  }
+  
+  .button:hover .text {
+    color: #14274C;
+  }
+  
+  .button:hover svg path {
+    fill: #007ACC;
+  }
