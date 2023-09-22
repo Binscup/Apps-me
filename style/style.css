@@ -199,3 +199,26 @@ margin-top: 30px;
   {
     background-color: transparent;
   }
+.notiftext{
+   
+    font-size: 40px;
+}
+.notif{
+    background-color:rgba(217, 217, 217, 0);
+    height:200px;
+    width:1000px;
+    border-radius:11px;
+    border:3px solid #14274c;
+   
+}
+.notif h1{
+    font-size:20px;
+    margin-left:20px;
+    margin-top:10px;
+}
+.notif p{
+    margin-left:20px;
+}
+.group{
+    margin-left:300px;
+}
