@@ -122,19 +122,27 @@ body.open.burger{
 .rectangle71
 {
 background-color:rgba(217, 217, 217, 0);
-height:363px;
-width:363px;
+height:410px;
+width:410px;
 border-radius:11px;
 border:3px solid #14274c;
+margin-left:80px;
 }
 .inter{
 background-color:rgba(217, 217, 217, 0);
-height:243px;
-width:243px;
+height:253px;
+width:350px;
 border-radius:11px;
 border:3px solid #14274c;
-margin-left:57px;
+margin-left:30px;
 margin-top: 30px;
+}
+.inter img{
+    margin-top: 30px;
+}
+.inter p{
+    margin-top:20px;
+    font-size:20px;
 }
 .button {
     display: flex;
@@ -145,11 +153,11 @@ margin-top: 30px;
     background-color: #14274C;
     outline: 3px #14274C solid;
     outline-offset: -3px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: none;
     cursor: pointer;
     transition: 400ms;
-    margin-left:115px;
+    margin-left:140px;
     margin-top: 12px;
   }
   
@@ -175,3 +183,15 @@ margin-top: 30px;
   .button:hover svg path {
     fill: #007ACC;
   }
+
+  .rectangle74
+  {
+  background-color:#14274c;
+  height:51px;
+  width:700px;
+  border-radius:11px;
+  margin-left:650px;
+  }
+
+  
+  
