@@ -195,10 +195,7 @@ margin-top: 30px;
     font-size:20px;
     color: #f9f9f9:
   }
-  .rectangle74:hoover
-  {
-    background-color: transparent;
-  }
+ 
 .notiftext{
    
     font-size: 40px;
@@ -222,3 +219,55 @@ margin-top: 30px;
 .group{
     margin-left:300px;
 }
+.next {
+    background-color: #14274C;
+    color: white;
+  }
+  
+  .round {
+    border-radius: 50%;
+  }
+  a {
+   
+  }
+  
+  
+  
+  .balik{
+    margin-left: 60px;
+    margin-top: 60px;
+  }
+
+  .kartu{
+    background-color:rgba(217, 217, 217, 0);
+    height:410px;
+    width:410px;
+    border-radius:11px;
+    border:3px solid #14274c;
+  }
+  .balik a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 24px;
+    font-size: 20px;
+  }
+  .balik a:hover {
+    background-color: #ddd;
+    color: black;
+    transition:0.4s;
+  }
+  .single{
+    background-color:rgba(217, 217, 217, 0);
+    height:300px;
+    width:500px;
+    border-radius:11px;
+    border:3px solid #14274c;
+  }
+   .single img{
+    margin-top:30px;
+    width: 180px;
+    height:180px;
+   }
+   .single p{
+    font-size: 40px;
+   }
