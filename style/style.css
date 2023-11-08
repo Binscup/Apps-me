@@ -27,19 +27,26 @@ header h1{
   padding: 10px;
   font-size: 20px;
 }
+.sectionCard{
+  display: grid;
+  gap:50px;
+  grid-template-columns: auto auto auto  ;
+  margin-left:400px;  
+
+}
 .rectangle71
 {
 background-color:rgba(217, 217, 217, 0);
-height:410px;
-width:410px;
+width: 363px;
+height: 363px;
 border-radius:11px;
 border:3px solid #14274c;
-margin-left:100px;
+
 }
 .inter{
 background-color:rgba(217, 217, 217, 0);
-height:253px;
-width:350px;
+width: 294px;
+height: 235px;
 border-radius:11px;
 border:3px solid #14274c;
 margin-left:30px;
@@ -47,10 +54,12 @@ margin-top: 30px;
 }
 .inter img{
     margin-top: 30px;
+    margin-left: 5rem;
 }
 .inter p{
     margin-top:20px;
     font-size:20px;
+    text-align: center;
 }
 .button {
     display: flex;
@@ -87,8 +96,27 @@ margin-top: 30px;
   .button:hover .text {
     color: #14274C;
   }
+  .link {
+    text-align: center;
+    margin-top: 20px;
+
+
+  }
   .link a{
-      display: none; 
+    text-decoration: none;
+    background-color: #14274C;
+    color: #ffffff;
+    padding: 10px 50px;
+    border-radius: 20px;
+  }
+  .sectionCard .link > a{
+    text-decoration: none;
+  }
+  .link a:hover{
+    border: 3px solid #14274C;
+    color: #14274C;
+    background-color: #ffffff;
+    transition: 0.2s;
   }
   
 
@@ -105,6 +133,7 @@ margin-top: 30px;
     font-size:20px;
     color: #f9f9f9;
   }
+ 
  
 .notiftext{
    
