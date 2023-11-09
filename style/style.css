@@ -286,17 +286,18 @@ margin-top: 30px;
     text-decoration: none;
     color: #ffffff;
     text-align: center;
-    background-color: #14274C;
+    /* background-color: #14274C; */
     padding: 15px ;
     width: 90px;
     text-align: center;
     border-radius: 10px;
+    border-radius: 11px;
+    background: linear-gradient(180deg, #14274C 50.59%, rgba(12, 70, 148, 0.80) 100%, #0075FF 100%);
   }
   .buttonSp a:hover{
-    background-color: #F0FFFF;
-    border: 2px solid #14274C;
-    color:#14274C;    
+    font-size: 20px;
     transition: 0.4s;
+
   }
   .table{
     padding: 50px;
