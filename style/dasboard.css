@@ -245,8 +245,21 @@ aside a:hover {
 .contentInfo p{
   margin-top: 10px;
 }
-.desctext{
-  display: grid;
-  grid-template-columns:  auto auto auto auto auto auto;
-  gap: 35px ;
+/* .table{
+  margin-left: -2rem;
+  margin-top: 15px;
+} */
+table {
+  font-family: 'poppins';
+  border-collapse: collapse;
+  width: 45rem;
+  text-align: center;
+  font-size: 10px;
+  border: 1px solid #dddddd;
+
+}
+
+td, th {
+  text-align: center;
+  padding: 8px;
 }
